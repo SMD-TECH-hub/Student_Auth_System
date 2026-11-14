@@ -1,12 +1,12 @@
 import CryptoJS from "crypto-js";
 
 // Encryption
-export const encryptData = (data) => {
+export const encryptData = (data1) => {
 
   const secretKey = "MySecretKey123";
 
   return CryptoJS.AES.encrypt(
-    data,
+    data1,
     secretKey
   ).toString();
 
