@@ -27,7 +27,7 @@ export function AuthProvider({ children }) {
       },
       {
         email: "student@gmail.com",
-        password: "student123",
+        password: "student456",
         role: "student",
         name: "Rahul"
       }
