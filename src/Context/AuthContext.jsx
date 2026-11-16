@@ -20,6 +20,12 @@ export function AuthProvider({ children }) {
         name: "Admin"
       },
       {
+        email: "admin1@gmail.com",
+        password: "admin1",
+        role: "admin1",
+        name: "Admin1"
+      },
+      {
         email: "student@gmail.com",
         password: "student123",
         role: "student",
